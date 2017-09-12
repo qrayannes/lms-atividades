@@ -1,6 +1,7 @@
 .corpo{
     background-image: url(background.jpg);
     background-attachment: fixed;
+    margin-top: 0;
 
 }
 
@@ -25,7 +26,6 @@ nav{
     opacity:0.7;
     color:white;
     display: inline;
-
 }
 
 ul{
@@ -39,12 +39,7 @@ ul{
     overflow: auto;
 }
 
-nav ul a {
-    color: #000;
-    font-size: 20px;
-	padding: 8px 16px;
-	text-decoration: none;
-}
+
 
 
 article{
@@ -71,4 +66,11 @@ aside{
     background-image: url(gradient_bg.png);
     border: 10px 10px black;
 
+}
+
+nav ul a {
+    color: #000;
+    font-size: 20px;
+	padding: 8px 16px;
+	text-decoration: none;
 }
