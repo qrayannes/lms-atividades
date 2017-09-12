@@ -1,14 +1,18 @@
 .corpo{
     background-image: url(background.jpg);
     background-attachment: fixed;
+
 }
 
 h1,h2{
     text-align: center;
     color:white;
+    font-family: monospace;  
+}
+
+
+h1{
     font-size: 40px;
-    font-family: monospace;
-    
 }
 p{
     color: #004d4d;
