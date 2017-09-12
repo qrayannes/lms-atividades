@@ -1,0 +1,70 @@
+.corpo{
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+}
+
+h1,h2{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-family: monospace;
+    
+}
+p{
+    color: #004d4d;
+    font-size: 20px;
+}
+
+nav{
+    text-align: center;
+    background-color:#E28D0A;
+    opacity:0.7;
+    color:white;
+    display: inline;
+
+}
+
+ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+    overflow: auto;
+}
+
+nav ul a {
+    color: #000;
+    font-size: 20px;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+
+article{
+    background:#C4CFED;
+    opacity:0.9;
+    width:60%;
+    
+}
+
+
+
+aside{
+    background:#C4CFED;
+    float:right;
+    padding:10px;
+    border-radius:5px;
+    width:25%;
+    height:600px;
+    margin-right:70px;
+    top: 10px
+}
+
+.cadastro{
+    background-image: url(gradient_bg.png);
+    border: 10px 10px black;
+
+}
