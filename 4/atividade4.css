@@ -67,6 +67,7 @@ header img{
     padding: 20px;
     font-size: 20px;
     display: none;
+    left: 0;
 }
 .dropdown-content > h3{
     font-size: 30px;
@@ -74,6 +75,7 @@ header img{
 
 .dropdown:hover .dropdown-content{
     display: block;
+    
 }
 
 .dropdown .dropdown-button{
@@ -132,4 +134,9 @@ header img{
 
 .nav-lateral ul li a:hover{
     background-color: #CCCCCC;
+}
+
+.conteudo{
+    float: left;
+    margin: 20px;
 }
