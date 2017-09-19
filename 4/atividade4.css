@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-header{
-    text-align: center;   
+header{  
     font-family: fontawesome;
     text-decoration: none;
     line-height: 1;
@@ -18,6 +17,12 @@ header{
     padding: 10px;
 }
 
+header > p{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    
+}
 header img{
     width: 300px;
     padding: 5px;
