@@ -1,0 +1,33 @@
+*{
+    background-color: #bf80ff;
+}
+
+header{
+    font-family: 'Asap Condensed', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #8000ff;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(128, 0, 255, 0.58);
+}
+a:hover{
+    background-color: #000000;
+    color: white;
+}
+.conteudo{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+}
