@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rayanne Santos - prova1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            background-color: #ccc;
+            cursor: pointer;   
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            padding: 15px;
+        }
+        .dropdown:hover{
+            background-color:gray;
+        }
+        nav > ul > li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        ul >li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .dropdown{
+            float: left;
+        }
+
+        
+        .dropdown-content{
+            position: absolute;
+            background-color: #ccc;
+            padding: 20px;
+            display: none;
+            left: 0;
+            width: 100%;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+            
+        }
+
+        .dropdown .dropdown-button{
+            float:none;
+        }
+
+
+        .conteudo{
+            height: 900px;
+            width: 100%;
+        }
+        .coluna1{
+            float: left;
+            height: 100%;
+            width: 50%;
+        }
+        .coluna1 img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .coluna2{
+            float: right;
+            height: 100%;
+            width: 50%;
+        }
+        .coluna2 img{
+            height: 100%;
+            width: 100%;
+            transition: 2s;
+            
+        }
+        .coluna2 img:hover{
+            transform: scale(1.5,1.5);
+            transform-style: ease-in-out;
+        }
+        .linha1, .linha2{
+            height: 50%;
+        }
+        .texto1{
+            width: 100%;
+            height: 20px;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            background-color: #000000;
+            opacity: 0.6;
+        }
+        .texto2{
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            display: block;
+            margin: 30px;
+            text-align: center;
+            font-size: 40px;
+            background:radial-gradient(grey, white);   
+          
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="dropdown">
+                    <div class="dropdown-button">
+                        LINK
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">A</a></li>
+                            <li><a href="">B</a></li>
+                            <li><a href="">C</a></li>
+                        </ul>
+                    </div>
+                </div>                    
+               
+            </li>
+            <li>
+                <div class="dropdown">
+                    <div class="dropdown-button">
+                            LINK2
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">E</a></li>
+                            <li><a href="">F</a></li>
+                            <li><a href="">G</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <div class="dropdown-button">
+                        LINK3
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">H</a></li>
+                            <li><a href="">I</a></li>
+                            <li><a href="">J</a></li>
+                        </ul>
+                    </div>
+                </div>               
+            </li>
+        </ul>
+    </nav>
+
+    <div class="conteudo">
+        <div class="coluna1">
+            <img src="html.png" alt="">
+            <span class="texto1">Html 5!</span>
+        </div>
+        <div class="coluna2">
+            <div class="linha1">
+                <img src="css.png" alt="">
+            </div>
+            <div class="linha2">
+                <h2 class="texto2">
+                    Desenvolvimento WEB
+                </h2>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
