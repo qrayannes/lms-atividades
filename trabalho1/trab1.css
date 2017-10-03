@@ -31,7 +31,6 @@ a{
 }
 
 .drop-but{
-    width: 23vw;
     text-align: center;
     
 }
@@ -40,12 +39,11 @@ a{
     position: absolute;
     background-color: #EF9EAD;
     overflow: hidden;
-    width: 24%;
     max-height: 0px;
 }
 
 .drop:hover .drop-cont{
-    max-height: 114px;
+    max-height: 144px;
     transition: all 1s;
 }
 
@@ -60,7 +58,7 @@ a{
 
 .drop-cont > ul > li > a{
     display: block;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     color: white;
 }
@@ -144,23 +142,28 @@ article{
 }
 
 @media only screen and (max-width: 600px) {
-   .nav-e{
-       float: none;
-       position: relative;
-       border-top-right-radius: 0%;
-       border-bottom-right-radius: 0%;
-       width: 100%;
-       margin: 0;
-       
-   }
-   .nav-d{
+    .nav-e{
+        background-color: #EF9EAD;
+        margin-top: 0;
+        position: static;
+        border-radius:0;
+        width: 100%;
+        padding: 0;
+        height: 170px;
+    }
+    .nav-e > ul > li{
+        margin:10px;
+        padding: 5px;
+    }
 
-    margin: 0;
-    float: none;
+    .nav-d{
+        margin: 0;
+        position: absolute;
+        bottom: 0px;
+        display: block;
+    }
     
-    
-   }
-   .conteudo{
+    .conteudo{
        font-size: 15px;
        margin-top: 20px;
        margin-left: 50px;
